@@ -118,17 +118,18 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="flex justify-center lg:justify-end animate-slide-up">
             <div className="relative">
-              <div className="w-56 h-56 sm:w-72 sm:h-72 lg:w-80 lg:h-80 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center shadow-2xl">
-                <div className="w-48 h-48 sm:w-64 sm:h-64 lg:w-72 lg:h-72 bg-gray-200 rounded-full flex items-center justify-center overflow-hidden">
-                  <img 
-                    src="./images/IMG_7277.JPG" 
-                    alt="Nesru Abu Profile" 
+              <div
+                className="w-44 sm:w-60 lg:w-72 rounded-full bg-gradient-to-br from-primary/20 via-white/60 to-secondary/10 p-1"
+                style={{ boxShadow: '0 18px 40px rgba(15,23,42,0.12)' }}
+              >
+                <div className="bg-white rounded-full overflow-hidden p-1">
+                  <img
+                    src="./images/DSC_8866.JPG"
+                    alt="Nesru Abu Profile"
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>
               </div>
-              <div className="absolute -top-4 -right-4 w-8 h-8 bg-accent rounded-full animate-bounce-slow"></div>
-              <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-primary rounded-full animate-bounce-slow" style={{animationDelay: '1s'}}></div>
             </div>
           </div>
         </div>
