@@ -60,7 +60,7 @@ function App() {
     <ThemeProvider>
       <div className="App">
         <Header activeSection={activeSection} />
-        <main>
+        <main className="pt-20">
           <Hero />
           <About />
           <Skills />

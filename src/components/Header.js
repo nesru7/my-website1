@@ -38,7 +38,7 @@ const Header = ({ activeSection }) => {
         ? 'bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-lg' 
         : 'bg-transparent'
     }`}>
-      <nav className="container-custom">
+      <nav className="container-custom px-4 sm:px-6">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <div className="text-2xl font-bold gradient-text">

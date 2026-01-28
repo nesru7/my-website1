@@ -118,8 +118,8 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="flex justify-center lg:justify-end animate-slide-up">
             <div className="relative">
-              <div className="w-80 h-80 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center shadow-2xl">
-                <div className="w-72 h-72 bg-gray-200 rounded-full flex items-center justify-center overflow-hidden">
+              <div className="w-56 h-56 sm:w-72 sm:h-72 lg:w-80 lg:h-80 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center shadow-2xl">
+                <div className="w-48 h-48 sm:w-64 sm:h-64 lg:w-72 lg:h-72 bg-gray-200 rounded-full flex items-center justify-center overflow-hidden">
                   <img 
                     src="./images/IMG_7277.JPG" 
                     alt="Nesru Abu Profile" 
